@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/general_general">
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/displayFormats"
+            android:entryValues="@array/displayFormatValues"
+            android:key="pref_display_format_key"
+            android:summary="@string/settings_display_format_summary"
+            android:title="@string/settings_display_format_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/general_application">
+        <Preference
+            android:key="pref_rate_app_key"
+            android:title="@string/general_rate_app" />
+        <Preference
+            android:key="pref_about_app_key"
+            android:title="@string/general_about" />
+    </PreferenceCategory>
+</PreferenceScreen>

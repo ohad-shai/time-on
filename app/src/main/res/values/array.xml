@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="displayFormats">
+        <item>@string/settings_display_format_array_maximized</item>
+        <item>@string/settings_display_format_array_minimized</item>
+    </string-array>
+
+    <string-array name="displayFormatValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

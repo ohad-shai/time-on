@@ -1,0 +1,120 @@
+<resources>
+    <!--=============================================== Application ==========================================================-->
+    <string name="app_name">Time On</string>
+    <string name="app_version">Version 1.0.2</string>
+    <string name="app_about_content_short">\"Time On\" allows you to track your time.</string>
+    <string name="app_about_content_full">Whether you\'re a developer, manager, student, or you just care about your time, this app is for you.</string>
+    <string name="app_about_content_summary">Simply create a project, then quickly start to track the time!</string>
+    <string name="app_about_developer">Developed by Ohad Shai.</string>
+
+    <!--=============================================== Activities ===========================================================-->
+    <!-- Activity: Main -->
+    <string name="main_not_found_add_project">No projects found.\nClick to add.</string>
+
+    <!-- Activity: Project Create -->
+    <string name="create_project_activity_title">Create Project</string>
+    <string name="create_project_color">Select a color</string>
+
+    <!-- Activity: Project Edit -->
+    <string name="project_edit_activity_title">Edit Project</string>
+
+    <!-- Activity: Project Display -->
+    <string name="project_display_activity_title">Project Display</string>
+    <string name="project_display_total_track">Total Track</string>
+    <string name="project_display_created">Created</string>
+    <string name="project_display_workers_empty">Track time to show your sessions…</string>
+
+    <!-- Activity: Settings -->
+    <string name="settings_display_format_changed">Display format changed.</string>
+    <string name="settings_display_format_title">Display Format</string>
+    <string name="settings_display_format_summary">Select the display format of your active projects</string>
+    <string name="settings_display_format_array_maximized">Full Screen</string>
+    <string name="settings_display_format_array_minimized">List</string>
+
+    <!--================================================ Fragments ========================================================-->
+    <!-- Fragment: ProjectsArchive -->
+    <string name="projects_archive_empty">No projects in archive.</string>
+
+    <!--================================================= Dialogs =========================================================-->
+    <!-- Dialog: TimeSpanPickerDialog -->
+    <string name="dialog_time_span_picker_title">Edit Time</string>
+    <string name="dialog_time_span_picker_hours">Hours</string>
+    <string name="dialog_time_span_picker_minutes">Minutes</string>
+    <string name="dialog_time_span_picker_seconds">Seconds</string>
+    <string name="dialog_time_span_picker_time_not_edited">Time not edited</string>
+    <string name="dialog_time_span_picker_edit_success">Time edited in</string>
+
+    <!--================================================== General ========================================================-->
+    <!-- Generals -->
+    <string name="general_settings">Settings</string>
+    <string name="general_about">About</string>
+    <string name="general_general">General</string>
+    <string name="general_application">Application</string>
+    <string name="general_edit">Edit</string>
+    <string name="general_delete">Delete</string>
+    <string name="general_active">Active</string>
+    <string name="general_archive">Archive</string>
+    <string name="general_done">Done</string>
+    <string name="general_start">Start</string>
+    <string name="general_end">End</string>
+    <string name="general_track">Track</string>
+    <string name="general_description">Description</string>
+    <string name="general_actions">Actions</string>
+    <string name="general_name">Name</string>
+    <string name="general_info">Info</string>
+
+    <!-- General Actions -->
+    <string name="general_rate_app">Rate this app</string>
+    <string name="general_move_to_archive">Move to Archive</string>
+    <string name="general_return_to_active">Return to Active</string>
+    <string name="general_show_description">Show Description</string>
+    <string name="general_edit_time">Edit Time</string>
+    <string name="general_full_report">Full Report</string>
+    <string name="general_select_all">Select All</string>
+
+    <!-- General Buttons -->
+    <string name="general_btn_ok">OK</string>
+    <string name="general_btn_cancel">Cancel</string>
+    <string name="general_btn_yes">Yes</string>
+    <string name="general_btn_no">No</string>
+    <string name="general_btn_undo">Undo</string>
+    <string name="general_btn_close">Close</string>
+    <string name="general_btn_navigate_up">Navigate Up</string>
+
+    <!-- General Messages -->
+    <string name="general_msg_google_play_not_found">Install Google Play to perform this action.</string>
+    <string name="general_msg_already_exists">already exists.</string>
+    <string name="general_msg_app_is_running">Time On is running</string>
+    <string name="general_msg_running">Running</string>
+    <string name="general_msg_archived_from">Archived from</string>
+    <string name="general_msg_edited">Edited</string>
+    <string name="general_msg_deleted">deleted</string>
+    <string name="general_msg_archived">archived</string>
+    <string name="general_msg_activated">activated</string>
+
+    <!-- General Hints -->
+    <string name="general_hint_exit_selection">Exit Selection</string>
+
+    <!-- General Date & Time -->
+    <string name="general_today">Today</string>
+    <string name="general_yesterday">Yesterday</string>
+
+    <!-- Project Generals -->
+    <string name="project_name">Project Name</string>
+    <string name="project_play_btn_info">Start/Stop Tracking</string>
+    <string name="project_actions">Project Actions</string>
+    <string name="project_description_empty">No description provided.</string>
+    <string name="project_edit_time">Project Edit Time</string>
+    <string name="project_full_report">Project Full Report</string>
+    <string name="project_validation_name_empty">Project Name is required.</string>
+    <string name="project_validation_name_exists">Project name already exists.</string>
+    <string name="project_information">Project Information</string>
+    <string name="project_move_to_archive_currently_tracking">Project is tracking.\nDo you want to stop and move?</string>
+    <string name="project_move_to_archive_currently_some_tracking">Some projects are tracking.\nDo you want to stop and move?</string>
+
+    <!--=================================================== Other =========================================================-->
+    <!-- Behaviors: -->
+    <string name="behavior_shrink_below_top_alert">com.ohadshai.timeon.utils.ShrinkBelowTopAlertBehavior</string>
+    <string name="behavior_shrink_below_app_bar">com.ohadshai.timeon.utils.ShrinkBelowAppBarBehavior</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ee8f50</color>
+    <color name="colorPrimaryDark">#c27340</color>
+    <color name="colorAccent">#ee8f50</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorCream">#eee</color>
+    <color name="colorTransparent">#00ffffff</color>
+    <color name="colorTransparentBright">#55ffffff</color>
+    <color name="hoverDark">#22000000</color>
+    <color name="hoverDim">#11000000</color>
+    <color name="hoverLight">#11ffffff</color>
+    <color name="hoverBright">#22ffffff</color>
+    <color name="colorSelectionText">#525252</color>
+</resources>

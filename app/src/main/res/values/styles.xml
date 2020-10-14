@@ -1,0 +1,77 @@
+<resources>
+
+    <!--============================================== Base Application Theme ===============================================-->
+    <!-- Main Application Theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Selection Mode -->
+    <style name="AppTheme.SelectionMode" parent="AppTheme">
+        <item name="android:textColorPrimary">#000</item>
+        <item name="android:textColorHint">#aaa</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+    </style>
+
+    <!--================================================= ((Ripple)) Styles =================================================-->
+    <style name="FlatRipple">
+        <item name="android:background">@drawable/flat_ripple</item>
+    </style>
+
+    <style name="FlatRippleRounded">
+        <item name="android:background">@drawable/flat_ripple_rounded</item>
+    </style>
+
+    <style name="FlatRippleCircle">
+        <item name="android:background">@drawable/flat_ripple_circle</item>
+    </style>
+
+    <style name="BrightRippleCircle">
+        <item name="android:background">@drawable/bright_ripple_circle</item>
+    </style>
+
+    <style name="MaterialDialogButton" parent="FlatRippleRounded">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!--=================================================== General Styles ==================================================-->
+    <style name="FullWidthEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:padding">20dp</item>
+        <item name="android:background">#fff</item>
+        <item name="android:textSize">@dimen/abc_text_size_subhead_material</item>
+    </style>
+
+    <style name="DividerWhite">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#fff</item>
+    </style>
+
+    <style name="DividerLight">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#aaa</item>
+    </style>
+
+    <style name="DividerLightVertical">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#aaa</item>
+    </style>
+
+    <!--=====================================================================================================================-->
+
+</resources>
