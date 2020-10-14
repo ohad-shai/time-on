@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvProjects"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eee"
+        android:clipToPadding="false"
+        android:paddingBottom="10dp"
+        android:paddingTop="8dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnNotFoundCreateProject"
+        style="@style/FlatRippleCircle"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:drawablePadding="-35sp"
+        android:drawableTop="@mipmap/big_orange_plus"
+        android:paddingTop="35sp"
+        android:text="@string/main_not_found_add_project"
+        android:textAllCaps="false"
+        android:textColor="#aaa"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+</LinearLayout>

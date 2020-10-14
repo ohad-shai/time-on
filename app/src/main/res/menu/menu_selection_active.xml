@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="AlwaysShowAction">
+
+    <item
+        android:id="@+id/actionEdit"
+        android:icon="@mipmap/ic_mode_edit_black"
+        android:title="@string/general_edit"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/actionMoveToArchive"
+        android:icon="@mipmap/ic_archive_white_24dp"
+        android:title="@string/general_move_to_archive"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/actionDelete"
+        android:icon="@mipmap/ic_delete_black_24dp"
+        android:title="@string/general_delete"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/actionSelectAll"
+        android:title="@string/general_select_all"
+        app:showAsAction="never" />
+
+</menu>

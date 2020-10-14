@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity=""
+        android:layout_weight="0"
+        android:paddingEnd="22dp"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"
+        android:paddingStart="22dp"
+        android:paddingTop="22dp"
+        android:text="@string/general_actions"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/txtProjectName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="right|bottom"
+        android:lines="1"
+        android:paddingBottom="2dp"
+        android:paddingEnd="22dp"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"
+        android:paddingStart="22dp"
+        android:paddingTop="22dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#888"
+        android:textSize="15sp"
+        tools:ignore="RelativeOverlap,RtlHardcoded" />
+
+</LinearLayout>

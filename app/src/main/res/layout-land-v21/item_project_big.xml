@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardProject"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:clipChildren="false"
+    card_view:cardBackgroundColor="#fff"
+    card_view:cardCornerRadius="15dp"
+    card_view:cardElevation="8dp">
+
+    <View
+        android:id="@+id/viewProjectColor"
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/flat_ripple"
+        android:orientation="horizontal"
+        android:paddingTop="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ccc" />
+
+            <TextView
+                android:id="@+id/lblProjectName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:lines="1"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="25sp"
+                tools:ignore="NestedWeights" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ccc" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/imgBtnProjectRun"
+                    style="@style/FlatRippleCircle"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/project_play_btn_info"
+                    android:paddingLeft="2dp"
+                    android:paddingStart="2dp"
+                    android:scaleType="center"
+                    android:src="@mipmap/ic_big_play_black"
+                    tools:ignore="RtlSymmetry" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <View
+            style="@style/DividerLightVertical"
+            android:background="#ccc" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ccc" />
+
+            <com.ohadshai.timeon.ui.views.AutoResizeTextView
+                android:id="@+id/txtProjectTimeSpan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:lines="1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textScaleX="1.1"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/lblProjectRunning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/txtProjectTimeSpan"
+                android:layout_centerHorizontal="true"
+                android:text="@string/general_msg_running"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#f00"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btnProjectEditTime"
+                style="@style/FlatRipple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:contentDescription="@string/project_edit_time"
+                android:drawableLeft="@mipmap/ic_mode_edit_black"
+                android:drawablePadding="6dp"
+                android:drawableStart="@mipmap/ic_mode_edit_black"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:text="@string/general_edit_time"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnProjectFullReport"
+                style="@style/FlatRipple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:contentDescription="@string/project_full_report"
+                android:drawableLeft="@mipmap/ic_equalizer_black"
+                android:drawablePadding="6dp"
+                android:drawableStart="@mipmap/ic_equalizer_black"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:text="@string/general_full_report"
+                android:textAllCaps="false"
+                tools:ignore="RelativeOverlap" />
+
+            <Button
+                android:id="@+id/btnProjectInformation"
+                style="@style/FlatRipple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@string/project_information"
+                android:drawableLeft="@mipmap/ic_info_outline_black"
+                android:drawablePadding="6dp"
+                android:drawableStart="@mipmap/ic_info_outline_black"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:text="@string/general_info"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnProjectActions"
+                style="@style/FlatRipple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@string/project_actions"
+                android:drawableLeft="@mipmap/ic_menu_black"
+                android:drawablePadding="6dp"
+                android:drawableStart="@mipmap/ic_menu_black"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:text="@string/general_actions"
+                android:textAllCaps="false"
+                tools:ignore="RelativeOverlap" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlSelection"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/select_radial_background_style"
+        android:visibility="gone">
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/chkSelection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:buttonTint="@color/colorSelectionText"
+            android:scaleX="2"
+            android:scaleY="2"
+            app:buttonTint="@color/colorSelectionText" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

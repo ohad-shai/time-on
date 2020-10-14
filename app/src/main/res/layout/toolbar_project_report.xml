@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:id="@+id/action_bar_left_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:ignore="RtlHardcoded">
+
+        <ImageButton
+            android:id="@+id/imgbtnNavigateUp"
+            style="@style/BrightRippleCircle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/general_btn_navigate_up"
+            android:padding="8dp"
+            android:scaleType="center"
+            android:src="@mipmap/ic_arrow_back_white"
+            android:tint="#fff"
+            tools:ignore="RtlSymmetry" />
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/action_bar_icon"
+            android:layout_width="35.0dip"
+            android:layout_height="35.0dip"
+            android:src="@color/colorCream"
+            app:civ_border_color="#22000000"
+            app:civ_border_width="1dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/action_bar_left_container"
+        android:orientation="vertical"
+        android:paddingBottom="2.0dip"
+        android:paddingLeft="4.0dip"
+        android:paddingRight="0.0dip"
+        android:paddingTop="0.0dip"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:id="@+id/action_bar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="0.6"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/action_bar_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="0.4"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textColor="#eee"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

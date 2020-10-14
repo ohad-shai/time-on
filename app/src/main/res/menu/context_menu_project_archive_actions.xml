@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/actionReturnToActive"
+        android:title="@string/general_return_to_active" />
+
+    <item
+        android:id="@+id/actionEditTime"
+        android:title="@string/general_edit_time" />
+
+    <item
+        android:id="@+id/actionEdit"
+        android:title="@string/general_edit" />
+
+    <item
+        android:id="@+id/actionDelete"
+        android:title="@string/general_delete" />
+
+</menu>
